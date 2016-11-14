@@ -1,7 +1,8 @@
 pdf_viewer: &pdf_viewer 'pdfjs_viewer.html'
 
 collections:
-    '':
+    # /proxy/
+    proxy:
         index_paths: $liveweb
         wb_handler_class: !!python/name:via.rewriter.TemplateRewriteHandler
         templates:
